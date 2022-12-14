@@ -1,4 +1,4 @@
-#include "math"
+#include "main.h"
 /**
  *	jack_bauer - prints every minute 24hrs
  *
