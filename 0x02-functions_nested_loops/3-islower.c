@@ -2,7 +2,7 @@
 /**
  *	_islower - check if character is lowercase
  *
- *
+ *	@c: is to be cjecked
  *
  *	Return: 1 if char is lowercase otherwise 0
 */
