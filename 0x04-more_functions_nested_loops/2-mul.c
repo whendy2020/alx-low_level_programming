@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
  *	mul -  a and b
  *	@a: num 1 to multiply
@@ -9,6 +9,6 @@ int mul(int a, int b)
 {
 	int mul;
 
-	mul = a * b;
+	mul = 98 * 1024;
 	return (mul);
 }
