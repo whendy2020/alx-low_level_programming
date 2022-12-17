@@ -3,7 +3,7 @@
  *	print_line - printing lines
  *	@n: number of trees
  *
- *	
+ *
  *
 */
 void print_line(int n)
