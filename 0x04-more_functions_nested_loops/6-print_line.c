@@ -3,20 +3,25 @@
  *	print_line - printing lines
  *	@n: number of trees
  *
- *	Return: void
+ *	
  *
 */
 void print_line(int n)
 {
-	int i;
 
 	if (n <= 0)
 	{
 		_putchar('\n');
 	}
-	for (1 = 0; i < n; i++)
+	else
 	{
-		_putchar('_');
+		int i;
+
+		for (1 = 0; i < n; i++)
+		{
+			_putcha('_');
+		}
+
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
