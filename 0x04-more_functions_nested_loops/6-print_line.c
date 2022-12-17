@@ -17,7 +17,7 @@ void print_line(int n)
 	{
 		int i;
 
-		for (1 = 0; i < n; i++)
+		for (i = 0; i <= n; i++)
 		{
 			_putcha('_');
 		}
