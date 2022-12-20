@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- *	_strcpy - copy that string pointed to by src
+ *	*_strcpy - copy that string pointed to by src
  *
  *	@dest: char to check
  *	@src: char to check
  *
- *	@Return: 0 is success
+ *	Return: dest
 */
-char *_strcpy(char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int a;
 
