@@ -1,9 +1,9 @@
-#include "main.h"
+#include <stdio.h>
 /**
  *	print_diagsums - print the sum of 2 diagonals of a sqr matrix of integer
  *	@a: input pointer
  *	@size: size of the matrix
- *	Return: the sum
+ *
 */
 void print_diagsums(int *a, int size)
 {
