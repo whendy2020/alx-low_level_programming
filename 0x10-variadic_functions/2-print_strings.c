@@ -1,5 +1,6 @@
 #include <stdarg.h>
 #include <stdio.h>
+#include "variadic_functions.h"
 /**
  *	print_strings - a function that prints strings
  *	@separator: pointer to a constant separator
@@ -10,6 +11,8 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_list ap;
 	unsigned int index;
 	char *str;
+
+	va_start(ap, n);
 
 	for (index = 0; index < n; index++)
 	{
